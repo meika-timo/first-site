@@ -1,0 +1,359 @@
+@font-face {
+  font-family: "Brown Sugar";
+  src: url("fonts/BrownSugar.ttf") format("truetype"); /* Update the format if necessary */
+}
+
+@font-face {
+  font-family: "Monterchi-Serif";
+  src: url("fonts/Monterchi-Serif-Book-trial.ttf") format("truetype"); /* Update the format if necessary */
+}
+
+p{
+  font-family: 'Monterchi-Serif', serif;
+  color:#445a66;
+}
+
+h1 {
+  font-size: 130px;
+  font-family: "Brown Sugar", sans-serif;
+  font-weight: 100;
+  color: #445a66;
+}
+.container {
+  width: 1365px;
+  height: 767px;
+  /* background-color: rgba(234, 241, 234, 0.354); */
+  margin: 10px auto;
+}
+
+#snowman {
+  width: 500px;
+  position: absolute;
+  top: 80px;
+  left: 660px;
+  transform: rotate(70deg);
+}
+
+#bon {
+  position: absolute;
+  top: 180px;
+  left: 450px;
+  font-size: 130px;
+  font-family: "Brown Sugar", serif;
+  font-weight: 100;
+  color: #445a66;
+}
+
+#jour {
+  position: absolute;
+  top: 270px;
+  left: 483px;
+  font-size: 130px;
+  font-family: "Brown Sugar", sans-serif;
+  font-weight: 100;
+  color: #445a66;
+}
+
+#arrow {
+  position: absolute;
+  top: 750px;
+  left: 1200px;
+  transform: rotate(-70deg);
+  width: 110px;
+}
+
+#purple {
+  width: 292.6px;
+  position: absolute;
+  top: 200px;
+  left: 150px;
+}
+
+#about-text {
+  transform: rotate(90deg);
+  line-height: 0.63405021em;
+  letter-spacing: 0.034em;
+  font-size: 120px;
+  position: absolute;
+  top: 300px;
+}
+
+#meika {
+  width: 153.8px;
+  position: absolute;
+  top: 150px;
+  left: 353px;
+  z-index: -1;
+}
+
+.about-group {
+  position: relative;
+}
+
+.convo-M{
+  position: relative;
+}
+
+#convo-1 {
+  position: absolute;
+  left: 450px;
+  top: -60px;
+}
+
+#convo-2 {
+  position: absolute;
+  left: 550px;
+  top: 15px;
+}
+
+#convo-3 {
+  position: absolute;
+  left: 600px;
+  top: 100px;
+}
+
+#convo-4 {
+  position: absolute;
+  left: 550px;
+  top: 180px;
+}
+
+#name{
+  position: absolute;
+  left: 510px;
+  top: 35px;
+  font-size: 25.6px;
+  
+}
+
+#junior{
+  position: absolute;
+  left: 580px;
+  top: 110px;
+  font-size: 25.6px;;
+}
+
+#wine{
+  position: absolute;
+  left: 650px;
+  top: 195px;
+  font-size: 25.6px;;
+}
+
+#dogmom{
+  position: absolute;
+  left: 610px;
+  top: 275px;
+  font-size: 25.6px;
+
+}
+
+.lukas-section{
+  position: relative;
+  
+}
+
+#lukas-pic{
+  width: 250px;
+  position: absolute;
+  left: 1100px;
+  top: 500px;
+}
+
+#convo-lu-1{
+  position: absolute;
+  top: 500px;
+  left: 800px;
+  
+}
+
+#convo-lu-2{
+  position: absolute;
+  top: 400px;
+  left: 750px;
+}
+
+#lukas-me{
+  position: absolute;
+  top: 495px;
+  left: 870px;
+  z-index: 1;
+  font-size: 25.6px;
+}
+
+#herdog{
+  position: absolute;
+  top: 596px;
+  left: 850px;
+  font-size: 25.6px;
+}
+
+.purple-bubble-title{
+  position: relative;
+}
+
+#three-bubbles{
+  position: absolute;
+  width: 700px;
+  top: 180px;
+  left: 150px;
+}
+
+#my-skills{
+  text-transform: uppercase;
+  letter-spacing: 0.034em;
+  line-height: 0.67em;
+  font-size: 120px;
+  position: absolute;
+  top: 220px;
+  left: 400px;
+}
+
+.design-text{
+  position: relative;
+}
+
+.skills-design{
+  position: absolute;
+  left: 600px;
+  top: 150px;
+  font-size: 20px;
+}
+
+.quick-learner{
+  position: relative;
+}
+
+.skills-quick{
+  position: absolute;
+  left: 880px;
+  top: 320px;
+  font-size: 20px;
+}
+
+.funfact{
+  position: relative;
+}
+
+.skills-funfact{
+  position: absolute;
+  left: 900px;
+  top: 540px;
+  font-size: 20px;
+}
+
+.fetch{
+  position: relative;
+}
+.title-fetch{
+  font-size: 100px;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 0.034em;
+  line-height: 0.67em;
+  position: absolute;
+  left: 200px;
+}
+
+#seaweed{
+  width: 500px;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+
+.hint1{
+  position: relative;
+}
+
+.germany{
+  position: absolute;
+  left: 700px;
+  top: 200px;
+  font-size: 20px;
+}
+
+.hint2{
+  position: relative;
+}
+
+.email{
+  position: absolute;
+  left: 700px;
+  top: 300px;
+  font-size: 20px;
+}
+
+.hint3{
+  position: relative;
+}
+
+.shell{
+  position: absolute;
+  left: 700px;
+  top: 400px;
+  font-size: 20px;
+}
+
+.jellyfish{
+  position: relative;
+}
+
+.jelly{
+  position: absolute;
+  left: 1200px;
+  top: 80px;
+  transform:rotate(50deg);
+  z-index: -1;
+}
+
+.pinkshell{
+  position: relative;
+}
+
+.pink{
+  position: absolute;
+  width: 80px;
+  left: 600px;
+  top: 580px;
+  transform:rotate(20deg);
+ 
+}
+
+.curlyshell{
+  position: relative;
+}
+
+.curly{
+  position: absolute;
+  width: 80px;
+  left: 900px;
+  top: 480px;
+  transform:rotate(10deg);
+ 
+}
+
+.conchshell{
+  position: relative;
+}
+
+.conch{
+  position: absolute;
+  width: 130px;
+  left: 1100px;
+  top: 500px;
+  transform:rotate(10deg);
+ 
+}
+
+.purpleseaweed{
+  position: relative;
+}
+
+.purpleweed{
+  position: absolute;
+  width: 150px;
+  left: 1150px;
+  top: 440px;
+
+}
